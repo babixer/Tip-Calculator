@@ -1,0 +1,48 @@
+body {
+    font-size: 1.2em;
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+    color: #14182b;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    padding: 1.5em;
+    background: linear-gradient(-75deg, rgb(119, 240, 199), rgb(180, 183, 225));
+    border-radius: 15px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+
+}
+
+div {
+    line-height: 2.5em;
+}
+
+input[type="text"] {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+label,
+input {
+    width: 100%;
+}
+
+@media(min-width: 700px) {
+    body {
+        width: 60%;
+        background: url(image.jpg) no-repeat center center fixed;
+    }
+
+    label,
+    input {
+        display: inline-block;
+        width: 60%;
+    }
+}
